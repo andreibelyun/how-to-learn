@@ -13,14 +13,71 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  z-index: -1;
+  display: flex;
   /* выше установили ограничения для секции */
+}
+
+.header__logo {
+  background-image: url(../images/logo_place_header.svg);
+  width: 183px;
+  height: 32px;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-left: 64px;
+  z-index: 2;
+}
+
+.header__title {
+  font-size: 102px;
+  line-height: 96px;
+  width: 730px;
+  position: absolute;
+  border: 1px solid red;
+  padding-top: auto;
+  padding-left: 64px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  bottom: 30px;
+  padding-left: 64px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header__link {
+  position: absolute;
+  bottom: 40px;
+}
+
+.header__main-illustration {
+  background-image: url(../images/header-image.png);
+  background-size: cover;;
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 400px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color:#2f80ed;
+  position:absolute;
+  right: 160px;
+  z-index: 0;
 }
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
