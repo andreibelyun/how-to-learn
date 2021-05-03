@@ -44,6 +44,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: navy;/*Не совсем удачный цвет, но зато реализовал функциональность:D*/
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -250,6 +254,10 @@
   z-index: 1;
 }
 
+.feynman__link:hover {
+  color: navy;
+}
+
 .feynman__image {
   position: absolute;
   bottom: 0;
@@ -350,6 +358,9 @@
   text-decoration: none;
 }
 
+.footer__column-link:hover {
+  color: navy;
+}
 
 
 
