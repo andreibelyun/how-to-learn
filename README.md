@@ -9,4 +9,4 @@
 * Анимации
 * Айфреймы
 
-Ссылка на сайт: andreibelyun.github.io/how-to-learn/
+Ссылка на сайт: [andreibelyun.github.io/how-to-learn/](https://andreibelyun.github.io/how-to-learn/)
