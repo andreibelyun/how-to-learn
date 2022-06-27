@@ -12,6 +12,6 @@
 * Айфреймы
 * Методология БЭМ
 
-Ссылка на проект в gh-pages: [how-to-learn](https://andreibelyun.github.io/how-to-learn/)**
+Ссылка на проект в gh-pages: [how-to-learn](https://andreibelyun.github.io/how-to-learn/)
 
 <img src='./public/how-to-learn.gif' width='800px'/>
